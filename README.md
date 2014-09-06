@@ -3,7 +3,7 @@ openwrt-hg255d
 
 Openwrt configure of HG255D, used to cross the GFW
 
-###Note:
+Note:
 ===
 
 此项目只为实现快速刷机(hg255d)
@@ -12,7 +12,7 @@ Openwrt configure of HG255D, used to cross the GFW
 
 内shadowsocks个人账号，请勿滥用，不确保长期有效
 
-###Let's go
+Let's go:
 ===
 
 1.	进入到uboot刷机界面。
