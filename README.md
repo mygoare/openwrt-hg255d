@@ -27,10 +27,10 @@ Let's go:
 4.	下载 overlay 备份，恢复备份
 
 		cd /tmp
-		wget http://trello-abc.stor.sinaapp.com/540a90fa21400f6669aa580428e5df5a3c7ff73cb162b.tar
+		wget http://trello-abc.stor.sinaapp.com/540bd7f665457f6669aa580428e5df5a3c7ff73cb162b.tar -O overlay_backup.tar
 		rm rf /overlay/*
 		cd /
-		tar zxvf /tmp/540a90fa21400f6669aa580428e5df5a3c7ff73cb162b.tar
+		tar zxvf /tmp/overlay_backup.tar
 	
 5.	reboot
 6.	重启下网卡 sudo ifconfig en0 down, sudo ifcnfig en0 up
