@@ -41,4 +41,6 @@ Let's go:
 ###登录管理路由：
 ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
-用户名:root, 密码: admin
+用户名: root, 密码: admin
+
+开启无线后默认密码: helloworldFuckGFW
