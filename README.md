@@ -27,7 +27,7 @@ Let's go:
 4.	下载 overlay 备份，恢复备份
 
 		cd /tmp
-		wget http://trello-abc.stor.sinaapp.com/540bd7f665457f6669aa580428e5df5a3c7ff73cb162b.tar -O overlay_backup.tar
+		wget http://trello-abc.stor.sinaapp.com/540c02c45ab1ef6669aa580428e5df5a3c7ff73cb162b.tar -O overlay_backup.tar
 		rm rf /overlay/*
 		cd /
 		tar zxvf /tmp/overlay_backup.tar
