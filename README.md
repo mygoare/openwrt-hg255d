@@ -36,3 +36,9 @@ Let's go:
 6.	重启下网卡 sudo ifconfig en0 down, sudo ifcnfig en0 up
 7.	用DHCP自动获取ip，你会发现ip地址变成了3的网段（比如：192.168.3.110）
 8.	接下来你就可以自由畅游了...
+
+
+如果要管理路由：
+
+	ssh root@192.168.3.1 或 网址登录 192.168.3.1
+	密码: admin
