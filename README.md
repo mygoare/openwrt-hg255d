@@ -31,6 +31,7 @@ Let's go:
 		rm -rf /overlay/*
 		cd /
 		tar zxvf /tmp/overlay_backup.tar
+		
 	
 5.	reboot
 6.	重启下网卡 sudo ifconfig en0 down, sudo ifcnfig en0 up
