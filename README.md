@@ -44,3 +44,9 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 用户名: root, 密码: admin
 
 开启无线后默认密码: helloworldFuckGFW
+
+
+###Todo:
+
+电信，联通dns解析皆正常，长城宽带dns解析间歇性异常。
+打算使用dnscrypt 解决 长城宽带dns污染问题
