@@ -54,3 +54,7 @@ Todo:
 电信，联通dns解析皆正常，长城宽带dns解析间歇性异常。
 打算使用dnscrypt 解决 长城宽带dns污染问题
 
+**Bypass domains:**
+
+		qq.com,baidu.com,youku.com,zhihu.com,163.com,taobao.com,alipay.com
+
