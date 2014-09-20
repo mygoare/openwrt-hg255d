@@ -31,8 +31,8 @@ Let's go:
 		rm -rf /overlay/*
 		cd /
 		tar zxvf /tmp/overlay_backup.tar
-		
-	
+
+
 5.	reboot
 6.	重启下网卡 sudo ifconfig en0 down, sudo ifcnfig en0 up
 7.	用DHCP自动获取ip，你会发现ip地址变成了3的网段（比如：192.168.3.110）
@@ -54,7 +54,5 @@ Todo:
 电信，联通dns解析皆正常，长城宽带dns解析间歇性异常。
 打算使用dnscrypt 解决 长城宽带dns污染问题
 
-**Bypass domains:**
-
-		qq.com,baidu.com,youku.com,zhihu.com,163.com,taobao.com,alipay.com
+![dnscrypt](dnscrypt.png)
 
