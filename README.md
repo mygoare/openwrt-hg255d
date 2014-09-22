@@ -1,10 +1,8 @@
-openwrt-hg255d
-==============
+#Openwrt-hg255d
 
 Openwrt configure of HG255D, used to cross the GFW
 
-Note:
-===
+#Note:
 
 此项目只为实现快速刷机(hg255d)
 
@@ -12,8 +10,7 @@ Note:
 
 内shadowsocks个人账号，请勿滥用，不确保长期有效
 
-Let's go:
-===
+#Let's go:
 
 1.	进入到uboot刷机界面。
 
@@ -39,7 +36,7 @@ Let's go:
 8.	接下来你就可以自由畅游了...
 
 
-###登录管理路由：
+##登录管理路由：
 ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 用户名: root, 密码: admin
@@ -48,11 +45,13 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 
 
-Todo:
-===
+#Todo:
 
 电信，联通dns解析皆正常，长城宽带dns解析间歇性异常。
 打算使用dnscrypt 解决 长城宽带dns污染问题
 
 ![dnscrypt](dnscrypt.png)
 
+#License
+
+[MIT](http://opensource.org/licenses/MIT)
