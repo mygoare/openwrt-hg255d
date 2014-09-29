@@ -68,6 +68,10 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 ![](http://trello-abc.stor.sinaapp.com/5428d20acb7358186a4200c294039d80e21ca4e264a6e.jpg)
 
+#感谢
+
+Yanqun, sunnist, Songmei, jia姐
+
 #License
 
 [MIT](http://opensource.org/licenses/MIT)
