@@ -66,6 +66,8 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 - [x]	解决dns污染使用的自定义下ChinaDNS的防火墙ip_lists（比如长城宽带内部有dns污染）
 
 - [x]	升级 shadowsocks（客户端和服务端） 来尝试 rc4-md5 加密
+- [ ]	pac file support
+- [ ]	更加精确的大陆ip段
 
 #One More Thing
 
