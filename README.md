@@ -63,10 +63,9 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 #Todo:
 
-电信，联通dns解析皆正常，长城宽带dns解析间歇性异常。
-打算使用dnscrypt 解决 长城宽带dns污染问题
+- [x]	解决dns污染使用的自定义下ChinaDNS的防火墙ip_lists（比如长城宽带内部有dns污染）
 
-![dnscrypt](dnscrypt.png)
+- [x]	升级 shadowsocks 来尝试 rc4-md5 加密
 
 #One More Thing
 
