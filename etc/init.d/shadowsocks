@@ -1,0 +1,22 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006-2011 OpenWrt.org
+
+START=95
+
+SERVICE_USE_PID=1
+SERVICE_WRITE_PID=1
+SERVICE_DAEMONIZE=1
+
+start() {
+    service_start /usr/bin/ss-local -c /etc/ss-local.json
+    service_start /usr/bin/ss-redir -c /etc/ss-redir.json
+    #service_start /usr/bin/ss-tunnel -c /etc/ss-redir.json -l 1053 -L 8.8.8.8:5
+    sh /usr/bin/ss-gfw.sh
+}
+
+stop() {
+    service_stop /usr/bin/ss-local
+    service_stop /usr/bin/ss-redir
+    #service_stop /usr/bin/ss-tunnel
+    /etc/init.d/firewall restart
+}

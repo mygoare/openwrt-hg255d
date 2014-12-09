@@ -12,9 +12,19 @@ Openwrt configure of HG255D, used to cross the GFW
 
 请勿经常性P2P下载（迅雷、电驴）
 
+#原理
+
+通过 chinadns + dnsmasq + shadowsocks 来跳墙
+
+chinadns 获得正确的 ip 地址，dnsmasq 只是用作 chinadns 的上游
+
+取得正确 ip 之后， ss-gfw 使用 iptables 分流，过滤国内 ip ，国外 ip 走 shadowsocks ss-redir 1080 端口
+
+shadowsocks 开启 ss-redir 和 ss-local ， ss-local 用于直连 路由器， 可以直接监听 路由器的 1081 地址 翻墙
+
 #Let's go:
 
-主要包括 **刷空白系统** 和 **导入配置** 两步
+主要包括 **刷空白系统** 和 **导入配置** 两步 （未更新，但仍能使用）
 
 1.	用网线将 电脑 和路由的 LAN 口相连，用牙签或笔 按住reset，开机，按住数秒后松开
 1.	等待进入到uboot刷机界面。
@@ -67,7 +77,7 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 - [x]	升级 shadowsocks（客户端和服务端） 来尝试 rc4-md5 加密
 - [ ]	pac file support
-- [ ]	更加精确的大陆ip段
+- [ ]	更加精确的大陆ip段，误杀很多 香港，台湾和日本的 ip
 
 #One More Thing
 
