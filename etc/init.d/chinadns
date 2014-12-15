@@ -17,7 +17,7 @@ start()
         -l /etc/chinadns_iplist.txt \
         -c /etc/chinadns_chnroute.txt \
         -p 5353 \
-        -s 180.76.76.76,8.8.8.8,208.67.222.222,208.67.222.222:443 \
+        -s 180.76.76.76,8.8.8.8,208.67.222.222,208.67.220.220,208.67.222.222:443,208.67.220.220:443 \
         1> /tmp/log/chinadns.log \
         2> /tmp/log/chinadns.err.log &
     echo $! > $PIDFILE
