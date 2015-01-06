@@ -89,7 +89,7 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 #感谢
 
-Yanqun, sunnist, Songmei, jia姐
+Yanqun, sunnist, Songmei, jia姐, 黎总, lisa
 
 #License
 
