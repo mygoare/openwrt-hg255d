@@ -10,7 +10,7 @@ SERVICE_DAEMONIZE=1
 start() {
     service_start /usr/bin/ss-local -c /etc/ss-local.json
     service_start /usr/bin/ss-redir -c /etc/ss-redir.json
-    #service_start /usr/bin/ss-tunnel -c /etc/ss-redir.json -l 1053 -L 8.8.8.8:5
+    #service_start /usr/bin/ss-tunnel -c /etc/ss-redir.json -l 1053 -L 8.8.8.8:53 -u
     sh /usr/bin/ss-gfw.sh
 }
 
