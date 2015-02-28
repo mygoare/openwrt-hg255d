@@ -70,7 +70,8 @@ ssh root@192.168.3.1 或 网址登录 192.168.3.1
 
 也可以 手动 在客户端（电脑）上手动开启 ChinaDNS ，然后修改 dns 到 127.0.0.1 即可， 长城宽带用户因为dns污染相对电信联通更严重，需自定义上游dns server加入208.67.222.222:443
 
-[Download ChinaDNS-C_1.1.8_ramips_24kec.ipk](http://trello-abc.stor.sinaapp.com/5492c2f2bae2addda2e261c3aa17dc3bb914512bd35d4.ipk)
+最新ChinaDNS下载
+[Download ChinaDNS_1.3.0_ramips_24kec.ipk](http://jaist.dl.sourceforge.net/project/chinadns/dist/ChinaDNS_1.3.0_ramips_24kec.ipk)
 
 
 #Todo:
